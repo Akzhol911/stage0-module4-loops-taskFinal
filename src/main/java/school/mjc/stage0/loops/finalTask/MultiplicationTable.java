@@ -4,8 +4,8 @@ public class MultiplicationTable {
     public void printTable(int numberTableToPrint){
 
         for(int i=1;i<=10;i++){
-            if (numberTableToPrint>0) {
-            System.out.println(numberTableToPrint*i);
+            if (numberTableToPrint>=0) {
+            System.out.println(i+" * "+numberTableToPrint + " = " + numberTableToPrint*i);
 
 
 
